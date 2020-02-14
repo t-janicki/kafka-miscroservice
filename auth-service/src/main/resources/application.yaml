@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    consumer:
+      group-id: auth-service-consumer
+    bootstrap-servers: localhost:9092
+    topic:
+      userCreated: USER_CREATED_TOPIC
+  application:
+    name: auth-service
+server:
+  port: 9999
